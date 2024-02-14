@@ -1,0 +1,229 @@
+html,body{
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+article{
+    text-align: center;
+    font-size:medium;
+    margin: 10px;
+    padding:5px;
+}
+/*used inchs css unit*/
+.box1{
+    background:teal;
+    width: 3in;
+    height: 150px;
+    position: absolute;
+    top: 50px;
+    right: 200px;
+}
+/*used cm css unit*/
+.box2{
+    background: teal;
+    width: 8cm;
+    height: 150px;
+    position: absolute;
+    top: 50px;
+    right: 525px;
+}
+
+.box3{
+    background: teal;
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    top: 50px;
+    left: 185px;
+}
+
+.box4{
+    background: teal;
+    width: 955px;
+    height: 300px;
+    position: absolute;
+    bottom: 150px;
+    right: 200px;
+}
+
+.box5{
+    position: absolute;
+    background: lightgreen;
+    width: 955px;
+    height: 30px;
+    bottom: 110px;
+    right: 200px;
+}
+
+.circle1{
+    color:salmon;
+    font-size: 100px;   
+    position:absolute;
+    left: 450px;
+    top: 160px;
+}
+
+.circle2{
+    color:salmon;
+    font-size: 30px;
+    position: absolute;
+    top: 75px;
+    left: 550px;
+}
+
+.circle3{
+    color:salmon;
+    font-size: 30px;
+    position: absolute;
+    top: 60px;
+    left: 220px;   
+}
+
+.circle4{
+    color:salmon;
+    font-size: 30px;
+    position: absolute;
+    left: 220px;
+    top: 175px;
+}
+
+.circle5{
+    color: yellow;
+    font-size: 100px;   
+    position:absolute;
+    left: 350px;
+    top: 80px;
+
+}
+
+.circle6{
+    color:yellow;
+    font-size: 30px;   
+    position:absolute;
+    left: 340px;
+    top: 280px;
+
+}
+
+.tri1{
+    position: absolute;
+    color: green;
+    font-size: 700px;
+    right: 240px;
+    top:85px;
+    
+
+}
+/*used z-index*/
+.tri2{
+    position: absolute;
+    color: lightgreen;
+    font-size: 500px;
+    right: 200px;
+    top:213px;
+    z-index: 1;
+}
+
+.person1{
+    position: absolute;
+    color:aqua;
+    font-size: 80px;
+    bottom:150px;
+    left:185px;
+}
+
+.person2{
+    position: absolute;
+    color:aqua;
+    font-size: 80px;
+    bottom:150px;
+    left:235px;
+}
+
+.person3{
+    position: absolute;
+    color:aqua; 
+    font-size: 80px;
+    bottom:150px;
+    left:285px;
+}
+
+.person4{
+    position: absolute;
+    color:aqua; 
+    font-size: 80px;
+    bottom:150px;
+    left:335px;
+}
+
+.person5{
+    position: absolute;
+    color:aqua; 
+    font-size: 80px;
+    bottom:150px;
+    left:385px;
+}
+
+.person6{
+    position: absolute;
+    color:aqua; 
+    font-size: 80px;
+    bottom:150px;
+    left:435px;
+}
+
+.person7{
+    position: absolute;
+    color: darkslateblue;
+    font-size: 80px;
+    bottom:150px;
+    left:485px;
+}
+
+.person8{
+    position: absolute;
+    color:  darkslateblue;
+    font-size: 80px;
+    bottom:150px;
+    left:535px;
+}
+
+.person9{
+    position: absolute;
+    color: darkslateblue;
+    font-size: 80px;
+    bottom:150px;
+    left:585px;
+}
+
+.person10{
+    position: absolute;
+    color: darkslateblue;
+    font-size: 80px;
+    bottom:150px;
+    left:635px;
+    z-index: 1;
+}
+
+.smile{
+    font-size: 500px;
+}
+
+@media(max-width: 480px) {
+    .box1{
+        background:rgb(235, 140, 72);
+        width: 200px;
+        height: 150px;
+        position: absolute;
+        top: 50px;
+        right: 900px;
+    }
+    .tri2{
+        position: absolute;
+        color: rgb(180, 144, 238);
+        font-size: 100px;
+        right: 200px;
+        top:150px;
+    }
+}
+
